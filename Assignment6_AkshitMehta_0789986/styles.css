@@ -1,0 +1,82 @@
+/*       
+Name - Akshit Mehta
+Student-id - 0789986
+Assignment-6
+Date - 25/10/2023
+Time - 10:00
+*/
+
+/* body styles */
+
+body{
+    background-color: azure;
+}
+
+/* heading styles */
+
+h1{
+    font-size: x-large;
+    color: darkblue;
+    text-align: center;
+}
+
+/* form styles */
+
+input{
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+textarea{
+    width: 80%;
+}
+
+
+input[type="submit"]{
+    width: 10%;
+}
+
+label{
+    padding-bottom: 100px;
+    font-size: large;
+    color: darkred;
+    font-weight: 600;
+}
+
+/* media queries for mobile layout */
+
+
+@media screen and (max-width:600px) {
+    
+    input{
+        width: 100%;
+    }
+
+    input:first-of-type,input:nth-of-type(2),input:nth-of-type(3),input:nth-of-type(4){
+        padding-bottom: 15px;
+
+    }
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    textarea{width: 100%;}
+    label{
+        padding-bottom: 10px;
+        color: orangered;
+        font-size: x-large;
+        display: block;
+    }
+
+    input[type="submit"]{
+        width: 30%;
+    }
+
+    input[type="Checkbox"]{
+        width: 30%;
+    
+    }
+
+}
