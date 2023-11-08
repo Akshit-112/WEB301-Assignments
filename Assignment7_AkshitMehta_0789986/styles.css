@@ -1,0 +1,85 @@
+/***********************************************************
+Name : Akshit  Mehta
+Student ID - 0789986
+Task : Assignment 7
+Date - 2023-11-07
+***********************************************************/
+
+/* swiper styles */
+.swiper-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+/* body styles */
+body {
+    background-color: palevioletred;
+}
+
+/* header styles */
+h1 {
+    font-size: 24px;
+    color: lightgrey;
+    text-align: center;
+}
+
+/* form styles */
+label,
+textarea {
+    font-size: 14px;
+    color: brown;
+}
+
+form {
+    background-color: aquamarine;
+}
+h2{
+    font-size: 18px;
+    color: darkred;
+}
+
+/* media query */
+
+@media screen and (max-width:600px) {
+
+    body {
+        background-color: aqua;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: darkblue;
+    }
+
+    label {
+        display: block;
+        font-size: 20px;
+    }
+
+    input {
+        width: 100%;
+    }
+    h2{
+        font-size: 21px;
+    }
+    
+
+    textarea {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+        height: auto;
+    }
+
+}
