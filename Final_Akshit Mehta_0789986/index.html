@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+    <title>My Private bank account</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+
+    <header class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <img src="imgs/bank log.jpg" alt="bank logo" />
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav navbar-right">
+                            <li class="nav-item bg-danger">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item bg-danger">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item bg-danger">
+                                <a class="nav-link" href="#products">Accounts</a>
+                            </li>
+                            <li class="nav-item dropdown bg-danger">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    More
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#saving">Saving</a></li>
+                                    <li><a class="dropdown-item" href="#cheq">Chequing</a></li>
+                                    <li><a class="dropdown-item" href="#buis">Business</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <p id="bankname" class="text-center">Bank of Baroda</p>
+
+
+    <div id="Accounts" class="mt-4">
+        <h2 class="text-center mb-4">Account Types</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img id="saving" src="imgs/saving.png" class="card-img-top" alt="Saving account logo">
+                    <div class="card-body">
+                        <h5 class="card-title user-select-all text-center">Saving Account</h5>
+
+                    </div>
+                    <div class="container mt-4">
+                        <button type="button" class="btn btn-primary" data-toggle="popover"
+                            title="Saving account with 3.5% rate" data-placement="bottom">more info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img id="cheq" src="imgs/cheq.png" class="card-img-top" alt="Chequin account logo">
+                    <div class="card-body">
+                        <h5 class="card-title user-select-all text-center">Chequing Account</h5>
+                    </div>
+                    <div class="container mt-4">
+                        <button type="button" class="btn btn-primary" data-toggle="popover"
+                            title="Chequing account with 6% rate" data-placement="bottom">more info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img id="buis" src="imgs/business.png" class="card-img-top" alt="Business Account logo">
+                    <div class="card-body">
+                        <h5 class="card-title user-select-all text-center">Business Account</h5>
+                    </div>
+                    <div class="container mt-4">
+                        <button type="button" class="btn btn-primary" data-toggle="popover"
+                            title="Business account for business" data-placement="bottom">more info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-container">
+
+        <section id="registration-form" class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h2>HomeLoan Information</h2>
+                <p>
+                    We provide home loan with minimum interest rate in market
+                </p>
+                <p>
+                    Contact our agents to apply for home loan
+                </p>
+            </div>
+
+
+            <div class="swiper-slide">
+                <h2>Car Loan Information</h2>
+                <p>
+                    We provide Car loan with minimum interest rate in market, you dont have to mortgage anything for
+                    that
+                </p>
+                <p>
+                    Contact our agents to apply for car loan
+                </p>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </section>
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

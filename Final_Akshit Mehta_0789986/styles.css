@@ -1,0 +1,32 @@
+/* Name : Akshit Mehta */
+/* Student Id - 0789986 */
+
+header img{
+    height: 100px;
+    width: 100px
+}
+
+#bankname {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+
+@media screen and (max-width:600px){
+    body{
+        background-color: aqua;
+    }
+}
